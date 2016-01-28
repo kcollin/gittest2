@@ -17,7 +17,7 @@ public class TestFigur {
 		//System.out.println(r1);
 		
 		
-		Figure[] figs = new Figure[6];
+		Figure[] figs = new Figure[7];
 		
 		figs[0] = fig1;
 		figs[1] = new Circle(10,10, 2);
@@ -25,7 +25,7 @@ public class TestFigur {
 		figs[3] = new Rectangle(10,10, 10, 10);
 		figs[4] = c1;
 		figs[5] = new Rectangle(10,50, 100, 100);
-		
+		figs[6] = new Rectangle(10,50, 999, 999);
 		for (Figure f1 : figs) {
 			
 			System.out.println(f1);
