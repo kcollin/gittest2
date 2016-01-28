@@ -4,7 +4,7 @@ public class TestFigur {
 
 	public static void main(String[] args) {
 		
-		Figure fig1 = new Figure(10.0,10.0);
+		Figure fig1 = new Circle(10.0,10.0, 7);
 		//System.out.println(fig1);
 		Circle c1 = new Circle(20, 20, 4.0);
 		
