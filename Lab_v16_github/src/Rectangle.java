@@ -19,4 +19,10 @@ public class Rectangle extends Figure {
 	public String toString() {
 		return "Rectangle: width: " + width + " height " + height + " " + super.toString();
 	}
+
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return width*height;
+	}
 }

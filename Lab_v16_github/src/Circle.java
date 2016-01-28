@@ -21,4 +21,10 @@ public class Circle extends Figure {
 				+ "]";
 	}
 
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return Math.PI*Math.pow(radius, 2);
+	}
+
 }

@@ -1,5 +1,5 @@
 
-public class Figure {
+public abstract class Figure {
 
 	private double x;
 	private double y;
@@ -47,13 +47,13 @@ public class Figure {
 	@Override
 	public String toString() {
 		return "Figure [x=" + x + ", y=" + y + ", color=" + color + ", filled="
-				+ filled + "]";
+				+ filled + "Areal: " + getArea() + "]";
 	}
 
 	public void test() {
 		System.out.println("test");
 	}
 
-	
+	public abstract double getArea();
 	
 }
