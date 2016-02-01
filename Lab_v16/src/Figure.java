@@ -78,5 +78,6 @@ public abstract class Figure extends Object{
 	}
 	
 	public abstract double getArea();
+	public abstract double getPerimeter();
 	
 }
