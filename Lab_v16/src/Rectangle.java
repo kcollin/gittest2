@@ -27,4 +27,10 @@ public class Rectangle extends Figure {
 		return 0;
 	}
 
+	@Override
+	public double getPerimeter() {
+		// TODO Auto-generated method stub
+		return 2 * width * height;
+	}
+
 }
